@@ -1,7 +1,7 @@
 
-function getFormValue(event) {
+function getFormValue() {
   // Prevent the form from actually submitting and refreshing the page
-  event.preventDefault();
+  // event.preventDefault();
 
   // Retrieve values from the First Name and Last Name fields
   const fname = document.getElementById('fname').value.trim();
